@@ -1,0 +1,35 @@
+.card * {
+    margin: 0;
+}
+
+.card-service .card-image {
+    border: 3px solid #fed136;
+    width: 68px;
+    height: 67px;
+}
+
+.card-portfolio .card-image,
+.card-about .card-image {
+    border: 6px solid #f1f1f1;
+    width: 168px;
+    height: 168px;
+}
+
+.card-team .card-image {
+    width: 234px;
+    height: 235px;
+}
+
+.card-team {
+    background-color: #f9f9f9;
+}
+
+.card-text {
+    font-family: "Times New Roman";
+}
+
+@media (min-width: 576px) {
+    .card-body {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,19 @@
+.btn {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: #fed136;
+}
+
+.btn:hover {
+    border: 1px solid #ddaf08;
+    background-color: #ddaf08;
+    color: #494644;
+}
+
+@media (min-width: 576px) {
+    .btn {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
